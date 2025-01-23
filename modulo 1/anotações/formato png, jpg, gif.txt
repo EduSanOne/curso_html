@@ -1,0 +1,3 @@
+png: tem mais qualidade e suporte a fundo transparente.
+jpeg: é uma imagem mais compacta,mais facil de compartilhar e tem menor qualidade.
+gif: uma imagem com suporte a transparência e animação.

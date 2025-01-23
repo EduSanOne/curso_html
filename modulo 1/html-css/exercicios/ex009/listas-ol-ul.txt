@@ -1,0 +1,5 @@
+tag lista ordenada - OL (Order List) - type="" 1 A a I i ; Start " " .
+
+tag lista desordenada - UL (Unorder list) - type="" square; circle, disk
+
+tag Item de lista - LI (List Item)

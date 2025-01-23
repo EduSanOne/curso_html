@@ -1,0 +1,17 @@
+O computador utiliza a linguagem binária,bit, que é o "0" e "1", 
+esse "0" e "1" seria as ondas que ele recebe e executa algo, o "0" seria zero ondas e o "1" seria um sinal.
+Para representar uma informação tem que haver no minimo
+8 bits, 8 bits forma um byte.
+
+Representação de dados:
+1024 bits = 1KB
+1024 KG  = 1MB
+1024 MB  = 1GB
+1024 GB  =  1TB
+
+MB <> Mb
+MB= Megabytes
+Mb= Megabites
+
+Megabytes = Armazenamento
+Megabites = Transmissão (Internet, Placa de rede com velocidade em Mb) 

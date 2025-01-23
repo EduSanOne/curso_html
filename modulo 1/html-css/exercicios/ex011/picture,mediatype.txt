@@ -1,0 +1,2 @@
+TAG picture - Para imagens com necessidade de serem flexiveis para outras plataformas, tipo PC, TV , Celular e etc.
+TAG source mediatype - Aqui a gente coloca as imagens flexiveis, o max width é mais relacionado ao tamanho tela em largura do navegador que a própria imagem

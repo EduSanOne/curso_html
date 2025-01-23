@@ -1,0 +1,17 @@
+Para escrever <p> e </p> em forma de comentario, sem ser um código a gente coloca assim:
+&lt;p&gt; --> <p>
+LT = less than (menor que)
+GT - greater than (maior que)
+
+Simbolo começa com (&)
+Exs:
+&reg;
+&copy;
+&trade;
+&uparrow;
+etc.
+
+Emoji utilizando código de hexadecimal tem que utilizar o x e começa com
+"x" de represetando o o hexadecimal.
+&#x + (código do emoji)
+Ex: &#x1F385;  (Papai Noel)

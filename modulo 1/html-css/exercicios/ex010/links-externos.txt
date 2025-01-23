@@ -1,0 +1,3 @@
+tag A (Para links externos)
+usar o parametro: tagert="_blank" para abrir uma nova guia quando acessar o link.
+usar o paramêtro: ref="external" para indicar que o link é externo, bom para o google identificar do que se trata.

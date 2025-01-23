@@ -1,0 +1,31 @@
+   Uma tag semantica quer dizer que ela tem um significado, diferente de tags não semanticas, que a intenção é alterar sua forma gráfica para garantir um visual.
+  Utilizar tag semantica em vez de tags sem significado.
+  Pois o HTML reconhece as tags como semântica ou não semântica.
+
+Negrito / Destaque
+tag B (Não semântica)
+tag STRONG (semântica)
+
+Italico/ Ênfase
+tag I (não semantica)
+tag EM (semantica)
+
+Texto marcado
+tag MARK
+
+Texto grande e pequeno
+tag BIG (não semântica)
+tag SMALL (semântica)
+
+Texto deletado
+tag DEL
+
+Texto inserido
+tag INS
+tag U (não semântica)
+
+Texto sobrescrito
+tag SUP
+
+Texto subscrito
+tag SUB

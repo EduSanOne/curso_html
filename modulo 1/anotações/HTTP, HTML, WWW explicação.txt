@@ -1,0 +1,7 @@
+Tim Beners-lee criou o HTTP, a linguagem HTML e WWW(Word Wide Web).
+HTTP é baseada na linguagem HTML
+HTML: Hyper Text Markup Language.
+HTTP: Hyper Text Transfer Protocol.
+HTTP é um protocolo usado para transferência de dados entre os computadores, principalmente na Internet. Porem o HTML é a “programação”, ou seja, o código por trás das páginas da Web.
+WWW: É uma parte das sub-redes da internet especializado em HTTP, no caso parte de sites.
+Teoricamente o WWW seria o conjunto do HTTP, que é baseado em HTML.

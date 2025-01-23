@@ -1,0 +1,10 @@
+DOMINIO é só o nome que se paga pra utilizar na URL do site em vez de usar um IP em número para seu servidor.
+HOSPEDAGEM é o aluguel de um servidor pra você hospedar seu site.
+URL (Uniforme Resource Locator) = Localizador Uniforme de Recursos
+
+Exemplo de URL
+www.netshoes.com.br
+WWW - subdominio
+NETSHOES - Dominio
+.com.br - TLD de pais ccTLD
+

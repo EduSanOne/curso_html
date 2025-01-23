@@ -1,0 +1,7 @@
+tag PRE (Identa o texto no output visual digitado).
+tag CODE (Coloca a fonte de texto em formato fonte mono-espaçada, mais facil de ler).
+tag Q (Citações Simples).
+tag BLOCKQUOTE (Citações Complexas, ).
+  na tag BLOCKQUOTE se tem que usar o parametro "cite" que nesse parametro se coloca um link de referência
+tag ABBR (Possibilita colocar o significado da abreviação de alguma palavra).
+tag BDO (Possibilita escolher a direção da escrita das frases, podendo escrever uma frase de trás pra frente.)

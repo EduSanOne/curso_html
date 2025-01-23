@@ -1,0 +1,6 @@
+Os comandos mais importantes do HTML de lembrar
+
+marcador - span
+negrito - strong
+picture, source media type, max width
+list-style-position: inside, columns: 2 (o list-style-position inside, pega os pontos que estão por fora de algum backgroun, e joga para dentro do mesmo. O columns 2, transforma a lista em duas colunas.

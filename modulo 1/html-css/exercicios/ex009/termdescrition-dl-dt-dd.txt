@@ -1,0 +1,4 @@
+tag DL (Lista de definição, tipo um dicionário)
+tag DT (Descrição do termo, como nome)
+tag DD (Descrição do termo, como significado)
+  O google da preferência para os sites que tem Listas de Definições.
