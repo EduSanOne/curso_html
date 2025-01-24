@@ -38,13 +38,8 @@ header {
 
 nav{
     text-align: left;
-    text-decoration: none;
 }
 
-nav div a {
-    text-decoration: none;
-    color: white;
-}
 .menu {
     display: inline;
     margin: 8px;
