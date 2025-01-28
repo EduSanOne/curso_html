@@ -33,7 +33,7 @@ header h1 {
     color: var(--color02);
     text-align: center;
     font-family: var(--titulo-do-site);
-    font-size: 5em;
+    font-size: 10vw;
 }
 
 header p {
@@ -48,13 +48,26 @@ header a {
 
 main p {
     font-family: var(--fonte-do-poema);
+    margin: 50px 50px;
+    font-size: 3vw;
     width: 50%;
-    font-size: 3em;
-    min-height: 1000px;
-    margin-left: 50px;
+    padding: 5px;
+
+}
+ 
+p#para2 {
+  color: white;
+  background-color: rgba(211, 211, 211, 0.267);
+
 }
 
-
+div#imgpara2 {
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+}
 
 footer {
     background-color: var(--color01);
