@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        thead, tfoot {
+            background-color: black;
+             color: white;
+        }
+
+        td.numero {
+            text-align: right;
+        }
+
+        caption {
+            padding: 10px;
+            background-color: gray;
+            font-weight: bolder;
+        }
+
+        tbody > tr:nth-child(odd){ /*Em números pares da tabela = 2n-1*/
+            background-color: gray;
+            font-weight: bolder;
+        }
+
+        tbody > tr:nth-child(even){ /* Em números pares*/
+            background-color: lightgray;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+            TBODY
+            TFOOT
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 322 692</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 219 679</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 824 665</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 229 915</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 539 029</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 233 656</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 664 306</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">8 058 447</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7 350 483</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7 010 960</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4 281 209</td>
+            </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4 145 040</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">4 102 129</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="numero"><strong>212 583 720</strong></td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut nemo soluta saepe nam expedita officia amet sequi ipsum, tempora incidunt obcaecati accusantium perspiciatis accusamus atque ea sapiente. Quaerat, voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi molestiae omnis ratione tempora ducimus consequatur rerum. Amet fugit ullam incidunt aspernatur odit! Illo, unde veritatis. Itaque quis reprehenderit voluptates unde? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore, nulla maxime fugiat ullam cumque commodi, vero laboriosam consequuntur totam asperiores. Architecto officiis, ea excepturi molestias asperiores quod officia ipsa.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut nemo soluta saepe nam expedita officia amet sequi ipsum, tempora incidunt obcaecati accusantium perspiciatis accusamus atque ea sapiente. Quaerat, voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi molestiae omnis ratione tempora ducimus consequatur rerum. Amet fugit ullam incidunt aspernatur odit! Illo, unde veritatis. Itaque quis reprehenderit voluptates unde? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore, nulla maxime fugiat ullam cumque commodi, vero laboriosam consequuntur totam asperiores. Architecto officiis, ea excepturi molestias asperiores quod officia ipsa.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut nemo soluta saepe nam expedita officia amet sequi ipsum, tempora incidunt obcaecati accusantium perspiciatis accusamus atque ea sapiente. Quaerat, voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi molestiae omnis ratione tempora ducimus consequatur rerum. Amet fugit ullam incidunt aspernatur odit! Illo, unde veritatis. Itaque quis reprehenderit voluptates unde? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore, nulla maxime fugiat ullam cumque commodi, vero laboriosam consequuntur totam asperiores. Architecto officiis, ea excepturi molestias asperiores quod officia ipsa.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut nemo soluta saepe nam expedita officia amet sequi ipsum, tempora incidunt obcaecati accusantium perspiciatis accusamus atque ea sapiente. Quaerat, voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi molestiae omnis ratione tempora ducimus consequatur rerum. Amet fugit ullam incidunt aspernatur odit! Illo, unde veritatis. Itaque quis reprehenderit voluptates unde? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore, nulla maxime fugiat ullam cumque commodi, vero laboriosam consequuntur totam asperiores. Architecto officiis, ea excepturi molestias asperiores quod officia ipsa.</p>
+</body>
+</html>
