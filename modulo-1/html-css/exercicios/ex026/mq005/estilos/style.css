@@ -8,6 +8,7 @@
 
 body, html {
     background-color: lightgray;
+    width: 100vw;
 }
 
 header {
@@ -63,6 +64,10 @@ main {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+main > p {
+    width: 90vw;
 }
 
 article > h2 {
